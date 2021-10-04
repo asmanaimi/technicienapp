@@ -10,6 +10,8 @@ String email;
   String listp;
 String coverImage;
 String technicien;
+String status;
+
 @JsonKey(name: "_id")
   String id;
   AddOrdoModel(
@@ -21,6 +23,7 @@ String technicien;
      this.listp,
       this.coverImage,
       this.technicien,
+      this.status,
 //       String selectedType,
     });
  factory AddOrdoModel.fromJson(Map<String, dynamic> json) =>

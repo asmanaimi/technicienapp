@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:technicienapp/logopage.dart';
 import 'package:technicienapp/pages/HomePage.dart';
 import 'package:technicienapp/welcomepage.dart';
 
@@ -34,7 +35,7 @@ class _MyAppState extends State<MyApp> {
       });
     } else {
       setState(() {
-        page = SplashScreen();
+        page = Logopage();
       });
     }
   }

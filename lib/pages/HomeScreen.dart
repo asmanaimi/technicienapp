@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:technicienapp/models/AddOrdoModel.dart';
+import 'package:technicienapp/models/globalmodel.dart';
 import 'package:technicienapp/pages/ordonnances.dart';
 
 
@@ -13,7 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-               AddOrdoModel addOrdoModel = AddOrdoModel();
+  AddOrdoModel addOrdoModel = AddOrdoModel();
+globalmodel globalModel = globalmodel();
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       SingleChildScrollView(
        child: Ordonnances(
 
-  url: "/ordonnances/getownordo"
+  url:"/ordonnances/getownordo"
               ),
       ),
  

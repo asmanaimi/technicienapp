@@ -35,10 +35,13 @@ dependencies:
   flutter_svg: ^0.22.0
   font_awesome_flutter: ^9.1.0
   image_picker: ^0.6.7+4
+  firebase_messaging: ^7.0.0
+  lottie: ^0.6.0
+
   json_annotation: 3.1.1
 dev_dependencies:
   json_serializable: 3.5.1
-
+  build_runner: ^1.10.9
   flutter_test:
     sdk: flutter
 
@@ -57,6 +60,9 @@ flutter:
   assets:
     - assets/logo.png
     - assets/asma.jpg
+    - assets/logo3.png
+    - assets/logo4.png
+    - assets/p.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
